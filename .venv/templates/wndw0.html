@@ -1,13 +1,21 @@
 <!-- This is how you take notes. </!-->
 <!-- general document </!-->
 
-<!DOCTYPE html> <!-- define the file-type </!-->
-<html lang="en"> <!-- define the language-type </!-->
-<head> <!-- start the head </!-->
-    <meta charset="UTF-8"> <!-- state the character set <!-->
-    <title> Guide </title> <!-- This is the thing that will show up in the tab </!-->
-</head> <!-- end the head </!-->
-<body>
+<!-- <!DOCTYPE html> <!-- define the file-type </!-->
+<!-- <html lang="en"> <!-- define the language-type </!-->
+<!-- <head> <!-- start the head </!-->
+<!--     <meta charset="UTF-8"> <!-- state the character set <!-->
+<!--    <title> Guide </title> <!-- This is the thing that will show up in the tab </!-->
+<!-- </head> <!-- end the head </!-->
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- title for flask -->
+<h1>{% block title %} Guide {% endblock %}</h1>
+
+<!-- <body> </!-->
 
 <hr size="30" noshade>
 
@@ -202,5 +210,8 @@ a
 
 <hr size="30" noshade>
 
-</body>
+<!-- ends the block for flask <!-->
+{% endblock %}
+
+<!-- </body>
 </html>

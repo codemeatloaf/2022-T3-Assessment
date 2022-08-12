@@ -1,9 +1,11 @@
 {
     "cSpell.words": [
+        "blck",
         "Gohu",
         "Logscreen",
         "pyautogui",
-        "pygame"
+        "pygame",
+        "wndw"
     ],
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": false

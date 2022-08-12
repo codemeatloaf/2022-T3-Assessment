@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
 
-<!-- settings -->
-<head>
-    <meta charset="UTF-8">
-    <title>Name Here</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<h1> TEST </h1>
-
-<!-- end -->
-</html>
+{% block content %}
+    <h1>{% block title %} Index {% endblock %}</h1>
+    <h1>Hello World!</h1>
+    <h2>Welcome to FlaskApp!</h2>
+    <h3>{{ utc_dt }}</h3>
+{% endblock %}
