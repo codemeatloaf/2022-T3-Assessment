@@ -2,9 +2,12 @@
     "cSpell.words": [
         "blck",
         "Gohu",
+        "imagitron",
         "Logscreen",
+        "noshade",
         "pyautogui",
         "pygame",
+        "sairaextracondensed",
         "wndw"
     ],
     "python.linting.pylintEnabled": true,
